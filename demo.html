@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">首页</a></li>
+  <li><a href="#news">帮助</a></li>
+  <li><a href="#contact">关于</a></li>
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+    <h1>圣诞节的那些事</h1>
+    1 <a href="#stan-from">圣诞由来</a><br>
+    2 <a href="#oldman">圣诞老人的由来</a> <br>
+    3 <a href="#oldman-from">圣诞树的由来</a><br>
+
+    <h2 id="stan-from">圣诞由来</h2>
+    <p>基督教纪念耶稣诞生的重要节日。</p>
+    <img src="./image/01.jpg">
+    <h2 id="oldman">圣诞老人的由来</h2>
+    <p>
+        耶稣诞生的日期，《圣经》并无记载。公元336年罗马教会开始在12月25日过此节。12月25日原是罗马帝国规定的太阳神诞辰。
+    </p>
+    <h2 id="oldman-from">圣诞树的由来</h2>
+    <p>
+        有人认为选择这天庆祝圣诞，是因为基督教徒认为耶稣就是正义、永恒的太阳。5世纪中叶以后，圣诞节作为重要节日，成了教会的传统，并在东西派教会中逐渐传开。因所用历法不同等原因，各教派会举行庆祝的具体日期和活动形式也有差别。圣诞节习俗传播到亚洲主要是在十九世纪中叶，日本、韩国等都受到了圣诞文化的影响。现在西方在圣诞节常互赠礼物，举行欢宴，并以圣诞老人、圣诞树等增添节日气氛，已成为普遍习俗。圣诞节也成为西方世界以及其他很多地区的公共假日。
+    </p>
+    <p>更多内容可以<a href="http://wwww.baidu.com">百度一下</a></p>
+</div>
+
+</body>
+</html>
